@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jagriti Prakash | Portfolio</title>
+  <meta name="description" content="Portfolio of Jagriti Prakash, MCA student at Graphic Era Deemed University. HTML, CSS, Laravel, DBMS, AI/ML and Cloud Computing.">
+  <meta name="theme-color" content="#F5EEE2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <div class="bg" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <header class="bar">
+    <div class="container">
+      <nav class="nav" aria-label="Main">
+        <a class="brand" href="#top"><span class="mono">JP</span>Jagriti Prakash</a>
+        <ul class="links" id="links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+            <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+            <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          </button>
+          <button class="icon-btn menu-btn" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="links">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <div class="container">
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="badge"><span class="dot"></span>Open to internship and job opportunities</span>
+          <h1>Hi, I am <em>Jagriti Prakash</em></h1>
+          <p class="role">I am a <span class="typed" id="typed" aria-live="off">web developer</span><span class="caret" aria-hidden="true"></span></p>
+          <p class="lead">I am in the first year of my MCA at Graphic Era Deemed University. I build web pages with HTML and CSS, applications with Laravel, and I work with databases, AI/ML and cloud computing.</p>
+          <div class="cta">
+            <a class="btn primary" href="#skills" data-magnetic>View my skills
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn ghost" href="#contact" data-magnetic>Get in touch</a>
+          </div>
+        </div>
+
+        <aside class="glass profile tilt" aria-label="Profile summary">
+          <h2>Profile summary</h2>
+          <dl>
+            <div class="row"><dt>Currently studying</dt><dd>MCA, Year 1<small>Graphic Era Deemed University</small></dd></div>
+            <div class="row"><dt>Completed</dt><dd>BCA<small>Purnea University</small></dd></div>
+            <div class="row"><dt>Core skills</dt>
+              <dd><div class="tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Laravel</span>
+                <span class="tag">DBMS</span><span class="tag">AI/ML</span><span class="tag">Cloud</span>
+              </div></dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section id="about" class="reveal">
+        <div class="head">
+          <span class="eyebrow">About me</span>
+          <h2>A full-stack foundation, now growing into AI and cloud</h2>
+        </div>
+        <div class="about">
+          <div class="glass about-text">
+            <p>I completed my <strong>BCA at Purnea University</strong> and went on to an <strong>MCA at Graphic Era Deemed University</strong>, where I am in my first year.</p>
+            <p>I enjoy working on every layer of an application: the pages people see, the Laravel code that runs behind them, and the database that stores the data. Alongside this, I am learning AI/ML and cloud computing so I can build applications that learn from data and run reliably online.</p>
+          </div>
+          <div class="glass stats">
+            <div class="stat"><b data-count="6">0</b><span>Core skills</span></div>
+            <div class="stat"><b data-count="4">0</b><span>Qualifications, 1 in progress</span></div>
+            <div class="stat"><b data-count="3">0</b><span>Skill areas</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="reveal">
+        <div class="head">
+          <span class="eyebrow">Skills</span>
+          <h2>What I work with</h2>
+          <p>Filter by the part of an application a skill belongs to.</p>
+        </div>
+        <div class="filters" id="skillFilters" role="group" aria-label="Filter skills"></div>
+        <div class="skill-grid" id="skillGrid" aria-live="polite"></div>
+      </section>
+
+      <section id="education" class="reveal">
+        <div class="head">
+          <span class="eyebrow">Education</span>
+          <h2>My academic journey</h2>
+        </div>
+        <ol class="timeline">
+          <li class="now">
+            <span class="node"><i></i></span>
+            <div class="glass lift edu">
+              <div class="top"><h3>MCA, Year 1</h3><span class="pill now">In progress</span></div>
+              <p>Graphic Era Deemed University</p>
+            </div>
+          </li>
+          <li>
+            <span class="node"><i></i></span>
+            <div class="glass lift edu">
+              <div class="top"><h3>BCA</h3><span class="pill">Completed</span></div>
+              <p>Purnea University</p>
+            </div>
+          </li>
+          <li>
+            <span class="node"><i></i></span>
+            <div class="glass lift edu">
+              <div class="top"><h3>Class 12</h3><span class="pill">Completed</span></div>
+              <p>Mahila College</p>
+            </div>
+          </li>
+          <li>
+            <span class="node"><i></i></span>
+            <div class="glass lift edu">
+              <div class="top"><h3>Class 10, CBSE</h3><span class="pill">Completed</span></div>
+              <p>Mount Zion School, Purnea</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="projects" class="reveal">
+        <div class="head">
+          <span class="eyebrow">Projects</span>
+          <h2>Things I have built</h2>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+      </section>
+
+      <section class="reveal" aria-label="Strengths">
+        <div class="head">
+          <span class="eyebrow">Strengths</span>
+          <h2>What I can bring to a team</h2>
+        </div>
+        <div class="strengths">
+          <article class="glass lift strength tilt">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></div>
+            <h3>End-to-end web skills</h3>
+            <p>I can work on the interface, the Laravel backend and the database of one application.</p>
+          </article>
+          <article class="glass lift strength tilt">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div>
+            <h3>Data thinking</h3>
+            <p>DBMS knowledge helps me structure data cleanly before building features on top of it.</p>
+          </article>
+          <article class="glass lift strength tilt">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18a4 4 0 010-8 5.5 5.5 0 0110.6-1.2A4.6 4.6 0 0117 18H7z"/></svg></div>
+            <h3>Modern tech learner</h3>
+            <p>I am building AI/ML and cloud skills alongside my MCA, so I can keep up with how software is built today.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="reveal">
+        <div class="glass closing">
+          <span class="eyebrow">Contact</span>
+          <h2>Let us work together</h2>
+          <p>I am open to internships and entry-level roles in web development and software engineering.</p>
+          <div class="contact-links" id="contactLinks"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="container foot">
+    <span>&copy; <span id="year">2026</span> Jagriti Prakash · MCA, Graphic Era Deemed University</span>
+    <span>Built with HTML, CSS and JavaScript</span>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
